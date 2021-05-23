@@ -1,4 +1,11 @@
 
+
+
+body {
+    background-color: #fafafa;
+}
+
+
 h1 {
     font-family: "Red Hat Display", sans-serif;
     font-weight: 900;
@@ -10,6 +17,10 @@ h1 {
     margin-top: 80px;
     margin-bottom: 115px;
     text-align: center;
+}
+
+.main-banner{
+    padding-bottom: 120px;
 }
 
 .top-paragraph {
@@ -53,6 +64,21 @@ h1 {
 
 .info-btn:hover {
     background-color: #d9b8ff;
+}
+
+.vl {
+    border-left: 1px solid lightgrey;
+    height: 100px;
+    margin-left: 50%;
+}
+
+.circle-nm {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin-left: 650px;
+
 }
 
 
