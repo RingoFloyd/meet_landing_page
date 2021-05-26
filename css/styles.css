@@ -76,9 +76,28 @@ h1 {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: lightgrey;
+    background-color: #fafafa;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 12px;
+    color: #87879D;
     margin-left: 650px;
 
+}
+
+.image-row {
+    margin-top: 65px;
+    padding: 0 165px 0 165px;
+}
+
+.img-row {
+    padding: 5px;
+    width: 255px;
+    height: auto;
+    border-radius: 5%;
 }
 
 
