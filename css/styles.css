@@ -13,6 +13,20 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer {
+    background: url("../assets/desktop/image-footer.jpg");
+    height: 308px;  
+    
+}
+
 .logo {
     margin-top: 80px;
     margin-bottom: 115px;
@@ -23,7 +37,7 @@ h1 {
     padding-bottom: 120px;
 }
 
-.top-paragraph {
+.paragraph {
     font-family: "Red Hat Display", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -66,7 +80,7 @@ h1 {
     background-color: #d9b8ff;
 }
 
-.vl {
+.vertical-line {
     border-left: 1px solid lightgrey;
     height: 100px;
     margin-left: 50%;
@@ -98,6 +112,21 @@ h1 {
     width: 255px;
     height: auto;
     border-radius: 5%;
+}
+
+.features {
+    padding-top: 60px;
+    padding-bottom: 72px;
+}
+
+.overline {
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4D96A9;
+
 }
 
 
