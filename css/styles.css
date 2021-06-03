@@ -17,13 +17,16 @@ h2 {
     font-family: "Red Hat Display", sans-serif;
     font-weight: 900;
     font-size: 40px;
-    text-align: center;
+    
     padding-bottom: 30px;
 }
 
 footer {
-    background: url("../assets/desktop/image-footer.jpg");
-    height: 308px;  
+    display: block;
+    background-color: #4d96a9;
+    height: 290px;
+    
+    
     
 }
 
@@ -99,6 +102,8 @@ footer {
     padding: 12px;
     color: #87879D;
     margin-left: 650px;
+    margin-bottom: -25px;
+    position: sticky;
 
 }
 
@@ -119,6 +124,10 @@ footer {
     padding-bottom: 72px;
 }
 
+.features-h2 {
+    text-align: center;
+}
+
 .overline {
     font-family: "Red Hat Display", sans-serif;
     text-align: center;
@@ -128,6 +137,45 @@ footer {
     color: #4D96A9;
 
 }
+
+.foot-row {
+    margin: 0;
+}
+
+.image-footer {
+    opacity: 0.1;
+    position: absolute;
+    padding: 0;
+}
+
+.tagline {
+    text-align: left;
+    color: #fafafa;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.footer-par {
+    font-family: "Red Hat Display", sans-serif;
+    color: #fafafa;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.footer-btn {
+    background-color: #855fb1;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.footer-btn:hover {
+    background-color: #d9b8ff;
+}
+
+
 
 
 
