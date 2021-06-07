@@ -37,7 +37,15 @@ footer {
 }
 
 .main-banner{
-    padding-bottom: 120px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.div-2 {
+    display: none;
+    margin: 0;
 }
 
 .paragraph {
@@ -46,6 +54,10 @@ footer {
     font-size: 16px;
     text-align: center;
     color: #87879D;
+}
+
+.top-right {
+    padding-right: 0;
 }
 
 .top-buttons {
